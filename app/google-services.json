@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "245658307625",
+    "firebase_url": "https://onlinebhajipalamarket.firebaseio.com",
+    "project_id": "onlinebhajipalamarket",
+    "storage_bucket": "onlinebhajipalamarket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245658307625:android:1a3421d0373fdbdd362038",
+        "android_client_info": {
+          "package_name": "com.abc.veggismart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245658307625-v1mu2q07asbbttqfsdjsst56e48so2ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJcmlyv7q37253FwHede97prRIhRhW0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245658307625-v1mu2q07asbbttqfsdjsst56e48so2ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245658307625:android:dfe4582d45d3b312362038",
+        "android_client_info": {
+          "package_name": "com.example.onlinebhajimarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245658307625-pbj2e1vsj05orvlcmr2ga8h8s1rf5r5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlinebhajimarket",
+            "certificate_hash": "eeb628b957003dcba732bbabf9bb94e2f4961365"
+          }
+        },
+        {
+          "client_id": "245658307625-v1mu2q07asbbttqfsdjsst56e48so2ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJcmlyv7q37253FwHede97prRIhRhW0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245658307625-v1mu2q07asbbttqfsdjsst56e48so2ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

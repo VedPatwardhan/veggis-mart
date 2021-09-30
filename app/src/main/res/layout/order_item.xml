@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:outlineAmbientShadowColor="@color/cardview_dark_background">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/itemNameOrderStatus"
+                android:layout_width="255dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-light"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/itemNameMarathiOrderStatus"
+                android:layout_width="255dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif-light"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/itemNameOrderStatus"
+                app:layout_constraintStart_toStartOf="@+id/itemNameOrderStatus"
+                app:layout_constraintTop_toBottomOf="@+id/itemNameOrderStatus" />
+
+            <TextView
+                android:id="@+id/itemQuantityOrderStatus"
+                android:layout_width="255dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif-light"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/itemNameMarathiOrderStatus"
+                app:layout_constraintTop_toBottomOf="@+id/itemNameMarathiOrderStatus" />
+
+            <TextView
+                android:id="@+id/itemPriceOrderStatus"
+                android:layout_width="255dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif-light"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/itemQuantityOrderStatus"
+                app:layout_constraintTop_toBottomOf="@+id/itemQuantityOrderStatus" />
+
+            <TextView
+                android:id="@+id/feedbackOrderStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginRight="22dp"
+                android:fontFamily="sans-serif-light"
+                android:text="No reply yet"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/itemQuantityOrderStatus"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/itemNameMarathiOrderStatus"
+                app:layout_constraintTop_toTopOf="@+id/itemNameMarathiOrderStatus" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
